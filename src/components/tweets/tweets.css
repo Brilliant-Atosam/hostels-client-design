@@ -1,0 +1,13 @@
+.tweets-container {
+  padding: 20px 50px;
+  background: #538fd934;
+}
+.tweets {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tweet {
+  width: 200px;
+  margin: 20px;
+}

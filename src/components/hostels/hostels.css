@@ -1,0 +1,55 @@
+.hostels-container{
+    min-height: 100vh;
+}
+.filters {
+  width: 100%;
+  align-items: center;
+  background: #abbed641;
+  margin: auto;
+}
+.filter {
+  align-items: center;
+  justify-content: center;
+  float: right;
+}
+.filter-input-container {
+  width: fit-content;
+}
+.filter-input{
+  width: 20px;
+}
+.hostels{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.show-hostels{
+    width: 300px;
+    margin: 20px;
+    background-color: #bec4d150;
+    border-radius: 10px;
+}
+.hostel-img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.hostel-details{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info{
+    margin-bottom: 20px;
+}
+.hostel-links{
+    justify-content: space-between;
+}
+.blue{
+    background-color: #0077ff;
+    color: white;
+}
+.red{
+    background-color: #df1d1d;
+    color: white;
+}

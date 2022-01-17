@@ -1,0 +1,7 @@
+.contact-container {
+  min-height: calc(100vh - 60px);
+  padding: 50px;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #538fd934;
+}

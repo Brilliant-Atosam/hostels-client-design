@@ -1,0 +1,11 @@
+.newsletter-container{
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    min-height: fit-content;
+    height: fit-content !important;
+    background: none;
+}
+.newsletter-title{
+    color: black;
+}

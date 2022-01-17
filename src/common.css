@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Source+Sans+Pro:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.bg-dark {
+  background-color: #003566;
+  color: #fff;
+}
+.container {
+  overflow-x: hidden;
+  width: 100vw;
+}
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+.title-sm {
+  font-size: 18px;
+}
+.heading-light {
+  font-weight: 300;
+}
+.links {
+  font-family: "PT Sans", sans-serif;
+}
+
+.p10 {
+  padding: 10px;
+}
+.px10 {
+  padding: 0 10px;
+}
+.p20 {
+  padding: 20px;
+}
+.px20 {
+  padding: 0 20px;
+}
+.py10 {
+  padding: 10px 0;
+}
+.py20 {
+  padding: 20px 0;
+}
+.pt10 {
+  padding-top: 10px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.pb10 {
+  padding-bottom: 10px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mr20 {
+  margin-right: 10px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.Bold {
+  font-weight: 700;
+}
+.hNormal {
+  font-weight: 400;
+}
+.hLight {
+  font-weight: 300;
+}
+.tsm {
+  font-size: 12px;
+}
+.ttmd {
+  font-size: 14px;
+}
+.textlg {
+  font-size: 22px;
+}
+.txl {
+  font-size: 35px;
+}
+.txxl {
+  font-size: 60px;
+}
+.form-container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffffb4 !important;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+}
+.input-container2 {
+  border: 2px solid #003566;
+  border-radius: 10px;
+}
+a{
+  color: unset;
+}
+input:focus, select:focus {
+  outline: none;
+}
+.input1 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 10px;
+  background-color: transparent !important;
+  border-bottom: 1px solid #706a6a;
+}
+.input2 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 10px;
+  background-color: transparent !important;
+}
+.tc {
+  text-align: center;
+}
+.bs {
+  box-shadow: 0px 0px 14px 2px #777a7a9e;
+}
+.flex {
+  display: flex;
+}
+.flexXC {
+  display: flex;
+  align-items: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.br10 {
+  border-radius: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  margin: 20px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #706a6a;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.btn:hover {
+  font-weight: 700;
+}
+.btn-outline {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+.btn-outline:hover {
+  background-color: #fff;
+  color: #706a6a;
+}
+@media (max-width: 740px) {
+  .btn {
+    font-size: 14px;
+    padding: 7px 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.choose-us {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.choose-items{
+    align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.choose-item {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 250px;
+}
+
+.choose-icon {
+  font-size: 40px !important;
+}

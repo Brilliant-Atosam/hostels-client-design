@@ -1,0 +1,17 @@
+.campuses{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.campus-logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+    transition: 0.4s ease;
+    position: relative;
+}
+.campus-logo:hover{
+transform: scale(1.1);
+bottom: 20px;
+}

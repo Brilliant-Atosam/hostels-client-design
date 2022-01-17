@@ -1,0 +1,79 @@
+.intro-container {
+  min-height: 740px;
+  height: calc(100vh - 60px);
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#00356670, #538fd99a),
+    url("https://media.istockphoto.com/photos/shes-a-diligent-student-picture-id538032738?b=1&k=20&m=538032738&s=170667a&w=0&h=Rhwm5Co55g0VMX--I-HXvLImJx2Tb9qXlh0XWjrnZyE=");
+  background-size: 100% 100%;
+}
+.intro-left {
+  flex: 1;
+}
+.intro-message {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.intro-title {
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 0px 0px 11px rgba(119, 119, 119, 0.74);
+  text-align: center;
+}
+.message {
+  font-weight: 500;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+.intro-right {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.intro-form {
+  width: 70%;
+  background-color: #fff;
+}
+.form-title {
+  color: #656b70ea;
+}
+.form-btn {
+  width: 100%;
+  margin: auto;
+  background-color: #003566;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+@media (max-width: 740px) {
+  .intro-title {
+    font-size: 35px;
+    text-align: center;
+  }
+  .message {
+    font-size: 16px;
+  }
+}
+@media (max-width: 540px) {
+  .intro-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .intro-message {
+    padding-top: 50px;
+    width: 100%;
+  }
+  .intro-title {
+    font-size: 22px;
+  }
+  .message {
+    font-size: 14px;
+  }
+  .intro-form {
+    width: 90vw;
+  }
+}

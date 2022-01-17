@@ -1,0 +1,21 @@
+.footer-container{
+    background-color: #003566;
+    color: #fff;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-items{
+    min-width: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social-icon{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.footer-key{
+    display: flex;
+    align-items: center;
+}
